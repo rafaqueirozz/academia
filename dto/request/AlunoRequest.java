@@ -1,0 +1,25 @@
+package com.facens.academia.dto.request;
+
+public class AlunoRequest {
+    private String nome;
+    private String email;
+    private Integer idade;
+    private String telefone;
+    private String situacao;
+    private Long planoId;
+
+    public AlunoRequest() {}
+
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+    public Integer getIdade() { return idade; }
+    public void setIdade(Integer idade) { this.idade = idade; }
+    public String getTelefone() { return telefone; }
+    public void setTelefone(String telefone) { this.telefone = telefone; }
+    public String getSituacao() { return situacao; }
+    public void setSituacao(String situacao) { this.situacao = situacao; }
+    public Long getPlanoId() { return planoId; }
+    public void setPlanoId(Long planoId) { this.planoId = planoId; }
+}
